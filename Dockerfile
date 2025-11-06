@@ -1,5 +1,4 @@
-# Use the official OpenJDK 17 image from Docker Hub
-FROM openjdk:21
+FROM eclipse-temurin:21
 # Set working directory inside the container
 WORKDIR /app
 # Copy the compiled Java application JAR file into the container
